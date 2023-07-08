@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.slider {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+.imageSlider {
+  width: 1005;
+  height: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.previous {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  font-size: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+}
